@@ -3,6 +3,15 @@
     background-color: #e2edff;
 }
 
+.jumbotron p a{
+    color: black;
+    text-decoration: none;
+}
+
+.jumbotron p a:hover{
+    color: salmon;
+}
+
 #projects {
     background-color: #e2edff;
 }
@@ -15,6 +24,7 @@ section {
     color : red;
 }
 
+
 .footer .footer-media {
 
     display: inline-block;
@@ -25,4 +35,13 @@ section {
     border-radius: 50%;
     font-size: 20px;
     color: dark;
+}
+
+footer p a{
+    color: white;
+    text-decoration: none;
+}
+footer p a:hover{
+    color: salmon;
+    transition: 0.3s;
 }
